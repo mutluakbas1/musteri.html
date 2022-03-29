@@ -1,0 +1,18 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  button {
+      padding: 10px 20px;
+  }
+  
+#text-isim {
+    margin-left: 54px;
+}
+#text-yas {
+    margin-left: 59px;
+}
+#text-adres {
+    margin-left: 44px;
+}

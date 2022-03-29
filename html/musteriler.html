@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÜŞTERİ</title>
+    <link rel="stylesheet" href="musteriler.css">
+    <script src="musteriler.js"></script>
+</head>
+
+
+<body>
+
+    <table id="table" style="width:100%">
+        <tr>
+            <th>ID</th>
+            <th>isim</th>
+            <th>yas</th>
+            <th>adres</th>
+            <th>hesap limiti</th>
+        </tr>
+        <tr>
+            <td id="id"></td>
+            <td id="isim"></td>
+            <td id="yas"></td>
+            <td id="adres"></td>
+            <td id="hesaplimiti"></td>
+        </tr>
+        <tr>
+            <td id="yenimusteri-id"></td>
+            <td id="yenimusteri-isim"></td>
+            <td id="yenimusteri-yas"></td>
+            <td id="yenimusteri-adres"></td>
+            <td id="yenimusteri-hesapLimiti"></td>
+        </tr>
+        
+        
+    </table>
+    <br>
+    <label for="id">ID:</label>
+    <input type="text" id="text-id" name="id"><br><br>
+
+    <label for="isim">İsim:</label>
+    <input type="text" id="text-isim" name="isim"><br><br>
+
+    <label for="yas">Yas:</label>
+    <input type="text" id="text-yas" name="yas"><br><br>
+
+    <label for="adres">Adres:</label>
+    <input type="text" id="text-adres" name="adres"><br><br>
+
+    <label for="hesapLimiti">Hesap Limiti:</label>
+    <input type="text" id="text-hesapLimiti" name="hesapLimiti"><br><br>
+
+    <br>
+
+    <button id="musterileriyükle" type="button" onclick='yukle()'>Müşterileri Yükle</button>
+    <button id="" type="button" onclick='yenimusteriekle()'>Yeni Müşteri Ekle</button>
+
+</body>
+
+</html>
